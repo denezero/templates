@@ -1,0 +1,97 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+fieldset {
+    background: radial-gradient(blue, rgb(15, 147, 190),blue, rgb(15, 147, 190));
+    border: 2px;
+    border-width: 2rem;
+    border-style: double;
+    border-color: black blue;
+    text-align: center;
+    margin: 5%;
+    padding: 5%;
+
+    
+}
+
+form {
+    color: white;
+    box-shadow: 2px 1px 3px;
+    border: 2px;
+    border-width: 0.5rem;
+    border-style:ridge;
+    border-color: blue black;
+    background: linear-gradient(rgb(15, 147, 190), blue, rgb(15, 147, 190), blue);
+    text-align: center;
+    margin-left: 80%;
+    padding: 0.1%;
+    margin: 8%;
+    width: 75%;
+    height: 200px;
+    
+}
+
+input {
+    text-align: center;
+    width: 50%;
+    border: 2px;
+    border-width: 2rem;
+    border-style: double;
+    outline-style: groove;
+    outline-color: blue;
+    border-radius: 1.3rem;
+    border-width: 0.5rem;
+}
+
+h1 {
+    color: white;
+    margin-left:-3vh ;
+    box-shadow: 2px 1px 3px;
+    border: 2px;
+    border-width: 0.5rem;
+    border-style:ridge;
+    border-color: blue black;
+    background: linear-gradient(rgb(15, 147, 190), blue, rgb(15, 147, 190), blue), rgb(15, 147, 190), (blue) ;  
+}
+
+h1:hover {
+    color: rgb(15, 147, 190);
+
+}
+
+h2 {
+    text-align: center;
+}
+
+h2:hover {
+    color: rgb(15, 147, 190);
+}
+
+button {
+    box-shadow: 2px 1px 3px;
+    width: 200px;
+    color: blue;
+    border-style: none;
+    font-size: 30px;
+    padding: 6px 12px;
+    border-radius: 10px;
+    background-color: black;
+    margin-left:-10vh ;
+    border: solid 2px;
+    
+    
+  
+    
+}
+button:hover {
+    color: rgb(15, 147, 190);
+
+}
+  
+button:active {
+    background-color: rgb(15, 147, 190);
+    border: solid white 2px;
+  
+}
